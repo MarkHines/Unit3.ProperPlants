@@ -1,0 +1,17 @@
+#root {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 5em  5em;
+}
+
+.plant-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-area: 3 ;
+}
+
+.plants-header{
+  grid-area: 2;
+}
+
+
